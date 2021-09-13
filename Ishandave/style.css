@@ -1,0 +1,303 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3e3e3;
+}
+
+.container {
+    width: 975px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 5px;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+
+nav {
+    background-color: rgb(197, 67, 40);
+    border-radius: 15px;
+}
+
+nav>a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 10px 10px 30px;
+    float: left;
+}
+
+.navbar>ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar>ul>li {
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 20px;
+    border-radius: 200px;
+}
+
+.navbar>ul:last-child {
+    padding-right: 100px;
+}
+
+.navbar>ul>li>a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+}
+
+.navbar>ul>li:hover {
+    background-color: black;
+}
+
+nav::after {
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+
+.banner1 {
+    height: 400px;
+}
+
+.banner1>img {
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+}
+
+.main-banner {
+    height: 400px;
+    background-color: rgb(223, 193, 61);
+    background-image: url(back2.jpg);
+}
+
+.main-banner>img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.service {
+    background-color: white;
+    width: auto;
+}
+
+.service>h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.col {
+    width: 300px;
+    text-align: center;
+    margin-right: 95px;
+    margin-left: 55px;
+    padding-bottom: 30px;
+    float: right;
+}
+
+.col::last-child {
+    border-right: none;
+}
+
+.col>h3 {
+    padding: 10px 0px;
+    color: grey;
+}
+
+.col>p {
+    padding-bottom: 20px;
+}
+
+.col>a {
+    background-color: #089de3;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 2px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.col>a:hover {
+    background-color: black;
+    border: solid black 2px;
+}
+
+.service::after {
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+
+.customer {
+    background-color: #089de3;
+    min-height: 300px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.customer>h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.customer>img {
+    border: solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.customer>p {
+    font-size: 18px;
+    margin: 10px 200px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.customer>a {
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 2px;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+.customer>a:hover {
+    background-color: #111111;
+    border: solid #111111 1px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+}
+
+small {
+    font: 15px;
+    color: blanchedalmond;
+}
+
+body>.enquiry {
+    background-image: url(questions.jpg);
+    opacity: 1;
+}
+
+.container1 {
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 0px;
+    flex-wrap: wrap;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=number],
+select,
+textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: rgb(73, 192, 109);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    border-radius: 15px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.row1 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: black;
+    float: left;
+}
+
+small {
+    font: 15px;
+    color: blanchedalmond;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

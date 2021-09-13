@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cfdee3;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    border: solid 1px;
+    opacity: 0.95;
+}
+
+.container>nav>a {
+    float: left;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.container>nav>.num>i {
+    float: right;
+    position: relative;
+    font-size: 50px;
+    font-style: absolute;
+}
+
+.container>nav>.num>h4 {
+    float: right;
+    position: relative;
+    font-size: 20px;
+    font-style: absolute;
+}
+
+.banner {
+    float: left;
+    position: relative;
+    bottom: 40%;
+    height: 80%;
+}
+
+.container>nav>.banner {
+    float: left;
+    font-size: 30px;
+}
+
+.num>i {
+    float: left;
+    position: relative;
+    height: auto;
+    bottom: auto;
+    padding: 0px;
+    object-position: left;
+}
+
+h2 {
+    position: static;
+    float: right;
+    object-position: top;
+    padding: 10px 10px 10px;
+    height: auto;
+    bottom: auto;
+}
+
+.social {
+    size: 200px;
+    float: right;
+    margin: 15px;
+    padding: 05px;
+    object-position: relative;
+    bottom: 0%;
+    height: 1000%;
+    width: auto;
+    background-color: #fff;
+}
+
+.banner>img {
+    height: fill;
+    width: fill;
+    float: left;
+    position: relative;
+    object-position: left;
+    border-radius: auto;
+}
+
+.banner>img:hover {
+    background-color: rgb(112, 164, 199);
+}
+
+nav {
+    background-color: #5498e6;
+}
+
+.banner>h1 {
+    align-self: center;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    text-decoration: tomato;
+}
+
+.banner>div:hover {
+    background-color: tomato;
+}
+
+nav>a {
+    color: black;
+    font-size: 5px;
+    text-decoration: none;
+    padding: 10px 10px 10px 30px;
+    float: left;
+}
+
+.tab>a {
+    background-color: #089de3;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.tab>a:hover {
+    background-color: black;
+    border: solid black 1px;
+}
+
+.social::after {
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+
+.social>.tab> {
+    font-size: 10px;
+    float: inherit;
+    object-fit: fill;
+    width: "500px";
+}
+
+.social>h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.tab {
+    width: 300px;
+    text-align: center;
+    margin: 35px;
+    border-right: solid #bebebe 1px;
+    padding-bottom: 30px;
+    float: left;
+}
+
+.tab::last-child {
+    border-right: none;
+}
+
+.tab>h3 {
+    padding: 10px 0px;
+    color: grey;
+}
+
+.tab>p {
+    padding-bottom: 20px;
+}
+
+.tab>a {
+    background-color: #089de3;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.tab>a:hover {
+    background-color: black;
+    border: solid black 2px;
+}
+
+button {
+    float: left;
+    object-position: bottom;
+    border-radius: 50px;
+}
+
+button:hover {
+    border: solid 1px;
+    background-color: rgb(0, 102, 255);
+}
+
+nav::after {
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+
+.main.banner {
+    height: 400px;
+}
+
+.main-banner>img {
+    width: 60%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.tab>:last-child {
+    padding-right: 100px;
+}
+
+footer {
+    background-color: black;
+    float: right;
+}
+
+small {
+    font: 15px;
+    color: blanchedalmond;
+}
+
+.nav1 {
+    background-color: rgb(0, 102, 255);
+    opacity: 0.9;
+}
+
+.nav1>a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 10px 10px 30px;
+    float: left;
+}
+
+.navbar>ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar>ul>li {
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 20px;
+    border-radius: 200px;
+}
+
+.navbar>ul:last-child {
+    padding-right: 100px;
+}
+
+.navbar>ul>li>a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+}
+
+.navbar>ul>li:hover {
+    background-color: black;
+}
+
+.nav1::after {
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+
+@media screen and (max-width: 900px;
+)
